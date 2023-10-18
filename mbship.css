@@ -9,11 +9,13 @@ body {
     font-family: Dotum,'돋움',Helvetica,sans-serif;
 }
 
+
 .logo {
-    width: 460px;
+    width: 500px;
     height: 160px;
     cursor: pointer;
 }
+
 
 #header {
     padding-top: 62px;
@@ -29,13 +31,14 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    width: 460px;
+    width: 500px;
 }
 
 h3 {
     margin: 19px 0 8px;
     font-size: 14px;
     font-weight: 700;
+    padding-left: 1%;
 }
 
 .box {
@@ -60,12 +63,16 @@ h3 {
 }
 
 input {
-    font-family: Dotum,'돋움',Helvetica,sans-serif;    
+    font-family: initial;    
 }
+
+
 
 .btn_area {
     margin: 30px 0 91px;
+
 }
+
 
 #btnJoin {
     width: 100%;
@@ -73,8 +80,10 @@ input {
     border: 0;
     cursor: pointer;
     color: #fff;
-    background-color: #6495ED;
+
+    background: rgb(105,163,255);
+    background: linear-gradient(162deg, rgba(105,163,255,1) 0%, rgba(43,125,254,1) 50%, rgba(43,125,254,1) 100%);
     font-size: 20px;
     font-weight: 400;
-    font-family: Dotum,'돋움',Helvetica,sans-serif;
+    font-family: initial;
 }
